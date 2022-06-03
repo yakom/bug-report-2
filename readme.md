@@ -5,3 +5,5 @@ a connection to a RabbitMQ broker is required, configurable in `application.yml`
 sending a message to RabbitMQ fails with:
 
 `java.lang.ClassCastException: class reactor.core.publisher.FluxOnErrorResume cannot be cast to class reactor.core.publisher.Mono (reactor.core.publisher.FluxOnErrorResume and reactor.core.publisher.Mono are in unnamed module of loader 'app')`
+
+raised as an [issue](https://github.com/micronaut-projects/micronaut-core/issues/7545).
