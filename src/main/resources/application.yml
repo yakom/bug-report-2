@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: bugReport2
+rabbitmq:
+  connection-timeout: 3000
+  exchange: "?"
+  password: "?"
+  requested-heartbeat: 30 # seconds
+  routing-key: "?"
+  username: "?"
+  uri: "?"
+  virtual-host: "?"
